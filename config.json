@@ -2,5 +2,13 @@
 	{
 		"tail" :"\\.js$",
 		"prefix":"// "
+	},
+	{
+		"tail" :"\\.cpp$",
+		"prefix":"// "
+	},
+	{
+		"tail" :"\\.py$",
+		"prefix":"# "
 	}
 ]

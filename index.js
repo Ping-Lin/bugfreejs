@@ -6,9 +6,9 @@ var config = require("./config.json"),
 	isUtf8   = require('is-utf8'),
 	buffer   = require("buffer").Buffer;
 
-var commentContent         = fs.readFileSync(path.join(__dirname,"comment_default.txt"),{encoding:"utf8"});
-var commentContent_forUTF8 = fs.readFileSync(path.join(__dirname,"comment_default_utf8.txt"),{encoding:"utf8"});
-console.log("commet template is at :" + __dirname + "\r\njust rewrite it as you wish\r\n");
+var commentContent         = fs.readFileSync(path.join(__dirname,"cat.txt"),{encoding:"utf8"});
+var commentContent_forUTF8 = fs.readFileSync(path.join(__dirname,"cat.txt"),{encoding:"utf8"});
+console.log("commemt template is at :" + __dirname + "\r\njust rewrite it as you wish\r\n");
 
 var targetList = process.argv;
 if(targetList[0] == "node"){
@@ -17,8 +17,8 @@ if(targetList[0] == "node"){
 targetList.shift();
 
 if(targetList.length <= 0){
-	console.log("useage : bugfree fileA [fileB [fileC]..]");
-	console.log("useage : bugfree dirName");
+	console.log("usage : bugfreejs fileA [fileB [fileC]..]");
+	console.log("usage : bugfreejs dirName");
 	process.exit(0);
 }
 
@@ -48,7 +48,7 @@ function mathcRuleForFile(filePath){
 			break;
 		}
 	}
-	
+
 	function dealFile(filePath) {
 
 		if(!fs.existsSync(filePath)){

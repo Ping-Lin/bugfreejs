@@ -1,6 +1,12 @@
 bugfreejs
 =========
+##Update
+* add file type to *.cpp and *.py
+* cat graph
 
+##Future
+* select txt graph
+-------------以上為修改內容-------------
 佛祖保佑，永无bug
 
 自动在JS头部加上神注释，默认支持utf8和GBK编码的js文件。

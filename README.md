@@ -10,7 +10,7 @@ bugfreejs
 ##Future
 * select txt graph
 
-![](http://imgur.com/qFbeROd)
+![](http://i.imgur.com/qFbeROd.png)
 
 ##----------------以上為修改內容-----------------
 佛祖保佑，永无bug
